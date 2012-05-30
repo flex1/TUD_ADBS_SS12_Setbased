@@ -4,10 +4,13 @@ Hier entsteht eine Implementierung eines mengenbasierten Algorithmus (Random Pai
 
 ## Status
 
-* Ausgabe eines manuell erstellten Datensatzes
-* Erzeugung eines zufälligen Samples (Items können doppelt vorkommen)
-* Ausgabe einer Abfrage bzgl. Löschen (an Index) und Einfügen (hinten Anfügen mit Bezeichnung) von Elementen
-* Realisierung von Löschung und Einfügung und Ausgabe der aktualisierten Datensätze
+* Ausgabe eines zufällig erzeugten Datensatzes (mit Elementen, die auch doppelt vorkommen können) durch Angabe der Anzahl der Elemente
+* Angabe von M über Konsole
+* Elemente enthalten Indexe und Inhalte
+* Erzeugung eines zufälligen Samples (Elemente können nicht mehr doppelt vorkommen)
+* Ausgabe einer Abfrage bzgl. Löschen (an Index) und Einfügen (hinten Anfügen mit Bezeichnung) von Elementen und Beenden des Programms
+* Realisierung von Löschung und Einfügung und Ausgabe der aktualisierten Datensätze und Samples
+* RP-Algorithmus umgesetzt
 
 ## Fragen
 
@@ -15,7 +18,7 @@ Hier entsteht eine Implementierung eines mengenbasierten Algorithmus (Random Pai
 
 ## TODO
 
-* Wiederholung von Abfragen (Löschen/Einfügen) und Ausgabe ...
-* Einstellen der Samplegröße M über Konsole
-* Erstellte Klassen erweitern und auch verwenden (z.B. Datensatz...)
-* Einbinden des RP und entsprechende Ausgabe erzeugen
+* Testen (sowie Verbessern) des Algorithmus
+* Erstellen einer Präsentation (wenige Folien...)
+* Erstellte Klassen (Sample, Datensatz...) erweitern und auch verwenden
+* Verschönerung der Konsolenanwendung bzw. richtige GUI bauen
