@@ -4,12 +4,13 @@
 using namespace std;
 
 
-
+//constructor
 Element::Element(int iid, string iinhalt) {
 	id = iid;
 	inhalt = iinhalt;
 }
 
+//getters and setters
 int Element::GetId(){
 	return id;
 }

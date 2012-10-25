@@ -12,8 +12,6 @@ public:
 	void SetId(int id);
 	string GetInhalt();
 	void SetInhalt(string inhalt);
-
-
 private:
 	string inhalt;
 	int id;
